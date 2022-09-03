@@ -72,16 +72,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>E:\11_졸업작품\1_공부\DirectX11 Engine VS19\includes;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>E:\11_졸업작품\1_공부\DirectX11 Engine VS19\Libs\x64\Debug;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\Libs\x64\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <ExternalIncludePath>E:\11_졸업작품\1_공부\DirectX11 Engine VS19\includes;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>E:\11_졸업작품\1_공부\DirectX11 Engine VS19\Libs\x64\Release;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\Libs\x64\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>E:\11_졸업작품\1_공부\DirectX11_Engine_VS19\DirectX11 Engine VS19\Libs\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
